@@ -1,0 +1,11 @@
+Liste des fonctionnalités à ajouter au module de gestion des utilisateurs:
+
+1.. Identification : 
+    - Ajouter le champ mot de passe à la table TUtilisateurs.
+    - Ajouter la zone de texte Mot de passe aux différtens formuleurs et requetes SQL
+    - Ajouter l'identification de l'utilisateur avant l'execution d'une fonctionnalité (ajout, supp, modif)
+2.. Gestion de session : 
+    Vous pouvez constater que ce n'est pas pratique de redemander à un utilisateur de saisir son login et mot de passe à chaque fois qu'il execute une tâche.
+    La solution est d'implémenter le mécaisme de gestion de session de PHP
+3.. Upload de fichier:
+    Ajouter une photo au dossier d'utilisateur. cette photo doit être enregistrée dans la base de données.
